@@ -1,0 +1,26 @@
+# Render.com configuration
+name: closerlinks-stella-beghini
+type: web
+
+# Build settings
+buildCommand: npm install
+startCommand: npm start
+
+# Environment
+env: node
+nodeVersion: 18
+
+# Static site settings
+staticPublishPath: .
+rootDir: .
+
+# Custom domain
+domains:
+  - closerlinks.me
+  - www.closerlinks.me
+
+# Health check
+healthCheckPath: /
+
+# Auto-deploy
+autoDeploy: true

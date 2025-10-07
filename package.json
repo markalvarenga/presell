@@ -4,7 +4,7 @@
   "description": "Landing page profissional da Stella Beghini - CloserLinks.me",
   "main": "index.html",
   "scripts": {
-    "start": "npx serve .",
+    "start": "npx serve . -l 10000",
     "dev": "npx live-server .",
     "build": "echo 'Build completed - static files ready'",
     "preview": "npx serve . -p 3000",
@@ -22,7 +22,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stella-beghini/closerlinks"
+    "url": "https://github.com/markalvarenga/presell"
   },
   "homepage": "https://closerlinks.me",
   "devDependencies": {

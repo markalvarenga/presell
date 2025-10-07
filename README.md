@@ -121,16 +121,28 @@ npm run build
 
 ## 🌐 Deploy
 
-### **Recomendações de Hospedagem:**
-- **Vercel** (recomendado) - Deploy automático
-- **Netlify** - Simples e rápido  
-- **GitHub Pages** - Gratuito
-- **Cloudflare Pages** - Performance global
+### **Render.com (Atual)**
+```bash
+# O projeto está configurado para deploy automático
+# URL: https://presell-kycb.onrender.com/
+# Domínio personalizado: https://closerlinks.me
+```
 
-### **Upload Manual:**
-1. Execute `npm run build`
-2. Faça upload de todos os arquivos para o servidor
-3. Configure domínio personalizado se necessário
+### **Configuração Render:**
+1. **Build Command:** `npm install`
+2. **Start Command:** `npm start`
+3. **Port:** `10000` (configurado automaticamente)
+4. **Domínio personalizado:** `closerlinks.me`
+
+### **Deploy Manual:**
+```bash
+# Fazer commit das mudanças
+git add .
+git commit -m "Update: configurações de deploy"
+git push origin master
+
+# O Render fará deploy automático
+```
 
 ## 📝 Licença
 
